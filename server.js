@@ -10,7 +10,7 @@ app.post("/webhook", (req, res) => {
     // =========================
     // STEP 1: เริ่มต้น
     // =========================
-    if (intent === "start_nutrition") {
+    if (intent === "ประเมินภาวะโภชนาการ") {
         return res.json({
             fulfillmentMessages: [
                 {
